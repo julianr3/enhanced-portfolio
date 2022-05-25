@@ -27,7 +27,7 @@ function App() {
         <li onClick={()=>{setPage("About")}} ><a href="#about-me">About Me</a></li>
         <li onClick={()=>{setPage("Work")}}><a href="#work">Work</a></li>
         <li onClick={()=>{setPage("Contact")}}><a href="#contact-me">Contact Me</a></li>
-        <li><a href="#">Resume</a></li>
+        <li><a href="https://drive.google.com/file/d/1yetcovOAnjX5_K9jydt-4CYOqfKQ_Y8C/view?usp=sharing">Resume</a></li>
       </ul>
     </nav>
     <section>
@@ -41,7 +41,7 @@ function App() {
     </section>
   </main>
   <footer>
-    <span>Thanks for visiting!</span>
+  <div><a href="https://github.com/julianr3">Visit my Github Profile!</a></div>
   </footer>
 </body>
   );
